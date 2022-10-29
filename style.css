@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+h3{
+    font-size: 24px;
+}
+.body{
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .content-a{
+    color: white;
+    background-color: #1F2937;
+}
+
+.text{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button{
+    flex-grow: 0;
+    height: 20px;
+    color: white;
+    border: solid white 1px;
+    background: #3882f6;
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text{
+    padding: 20px;
+    flex: auto;
+}
+.header{
+    display: flex; 
+}
+
+.content-a {
+    display: flex;
+    padding: 20px;
+}
+
+.content-a img{
+    width: 700px;
+    height: 300px;
+    padding: 25px;
+}
+
+.content-b{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+ .a{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+}
+
+ul{
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.content-b img{
+    flex: 1 1 auto;
+    height: 100px;
+    width: 100px;
+    border: solid #3882f6 2px;
+    border-radius: 15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-b p{
+    flex: 1 1 auto;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.quote{
+    flex: auto;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 25px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .attribute{
+    font-style:normal;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: end;
+}
+
+.sign-in{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 800px;
+    padding: 10px;
+    margin: 30px;
+    color: white;
+    background: #3882f6;
+}
+
+.sign-in .head{
+    
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.t{
+    display: flex;
+    gap: 100px;
+}
+
+.footer{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
